@@ -5,9 +5,35 @@
     /* Body and Headings */
     
     body {
-        margin: auto;
+        margin: 0 auto;
         font-family: Verdana, Geneva, sans-serif;
         /*direction: rtl; /*Text direction right to left*/
+    }
+    
+    .outerbody p {
+        margin: 10px 0px 10px 20px;
+    }
+    
+    .centrebody {
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 90%
+    }
+    /* Image Header */
+    
+    header {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/header.jpg);
+        background-size: cover;
+        height: 25vh;
+    }
+    
+    .title {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+        color: white;
+        text-align: center;
     }
     
     h1 {}
@@ -29,7 +55,8 @@
     }
     
     ul.nav li {
-        float: left;
+        display: inline-block;
+        float: none;
     }
     
     ul.nav li a {
@@ -59,12 +86,11 @@
             float: none;
         }
     }
-
     /* Language Toggle Switch */
     
     .langtoggle {
         position: relative;
-        width: 78px;
+        width:80px;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -140,3 +166,43 @@
     .langtoggle-checkbox:checked+.langtoggle-label .langtoggle-button {
         right: 0px;
     }
+    /* Accordion Sections */
+    
+    button.accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+    
+    button.accordion.active,
+    button.accordion:hover {
+        background-color: #ddd;
+    }
+    
+    button.accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    button.accordion.active:after {
+        content: "\2212";
+    }
+    
+    div.panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
