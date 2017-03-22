@@ -11,7 +11,7 @@
     }
     
     .outerbody p {
-        margin: 10px 0px 10px 20px;
+        margin: 10px 0 10px 20px;
     }
     
     .outerbody {
@@ -27,7 +27,7 @@
     /* Image Header */
     
     header {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/header.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/header.jpg);
         background-size: cover;
         height: 25vh;
     }
@@ -156,7 +156,7 @@
     .langtoggle-button {
         display: block;
         width: 23px;
-        margin: 5.5px;
+        margin: 6px;
         background: #FFFFFF;
         position: absolute;
         top: 0;
@@ -172,7 +172,7 @@
     }
     
     .langtoggle-checkbox:checked+.langtoggle-label .langtoggle-button {
-        right: 0px;
+        right: 0;
     }
     /* Accordion Sections */
     
@@ -240,7 +240,7 @@
         position: absolute;
         top: 25vh;
         left: 0;
-        right: 0px;
+        right: 0;
         z-index: 9999;
         width: 100%;
         height: 50px;
@@ -255,7 +255,7 @@
     
     .home {
         width: 100%;
-        max-width: ;
+        max-width: 960px;
         margin: 0 auto;
     }
     
@@ -275,10 +275,8 @@
     }
     
     .home-items li {
-        margin: 0 auto;
         display: inline-block;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin: 0 10px;
     }
     
     .home-items a {
@@ -289,19 +287,17 @@
     .hide {
         display: none;
         padding-left: 15px;
-        background-color: transparent;
-        background-repeat: no-repeat;
-        background-position: center left;
+        background: transparent no-repeat center left;
         color: #dde1e2;
     }
     
-    .visible {
+   /* .visible {
         background-image: url(assets/down-arrow-icon.png);
     }
     
     .hide {
         background-image: url(assets/up-arrow-icon.png);
-    }
+    }*/
     
     @media only screen and (max-width: 800px) {
         .home {
