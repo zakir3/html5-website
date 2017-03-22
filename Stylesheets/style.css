@@ -14,6 +14,11 @@
         margin: 10px 0px 10px 20px;
     }
     
+    .outerbody {
+        padding-bottom: 100px;
+        padding-top: 50px
+    }
+    
     .centrebody {
         margin: 0 auto;
         max-width: 1000px;
@@ -29,11 +34,14 @@
     
     .title {
         position: absolute;
+        margin: 0 auto;
         top: 25%;
         left: 50%;
         transform: translate(-50%, -150%);
         color: white;
         text-align: center;
+        border: 3px solid white;
+        padding: 0 10px;
     }
     
     h1 {}
@@ -90,7 +98,7 @@
     
     .langtoggle {
         position: relative;
-        width:80px;
+        width: 80px;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -205,4 +213,173 @@
         overflow: hidden;
         transition: max-height 0.2s ease-out;
     }
+    /* Footer Section */
+    
+    footer {
+        background: #C1DFC1;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+    button {
+        background: #f2f2f2;
+        border: 1px solid #999;
+        margin-bottom: 1rem;
+        padding: .5rem 1rem;
+    }
+    
+    .arabi {
+        display: none;
+    }
+    /* NAV BAR */
+    
+    .navmenu {
+        position: absolute;
+        top: 25vh;
+        left: 0;
+        right: 0px;
+        z-index: 9999;
+        width: 100%;
+        height: 50px;
+        background-color: #C1DFC1;
+    }
 
+    
+    .navmenu li,
+    .navmenu a {
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .home {
+        width: 100%;
+        max-width: ;
+        margin: 0 auto;
+    }
+    
+    .home a,
+    .home a:visited {
+        color: #ffffff;
+    }
+    
+    .home a:hover,
+    .home a:target {
+        color: #ebebeb;
+    }
+    
+    .home-items {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    
+    .home-items li {
+        margin: 0 auto;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .home-items a {
+        text-decoration: none;
+    }
+    
+    .visible,
+    .hide {
+        display: none;
+        padding-left: 15px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center left;
+        color: #dde1e2;
+    }
+    
+    .visible {
+        background-image: url(assets/down-arrow-icon.png);
+    }
+    
+    .hide {
+        background-image: url(assets/up-arrow-icon.png);
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .home {
+            position: relative;
+            width: 100%;
+        }
+        .home-items {
+            display: none;
+            width: 100%;
+            margin-top: 50px;
+            background-color: #008378;
+        }
+        .home-items li {
+            display: block;
+            text-align: center;
+        }
+        .visible,
+        .hide {
+            position: absolute;
+            top: 0;
+            right: 15px;
+        }
+        .visible {
+            display: inline-block;
+        }
+        .hide {
+            display: none;
+        }
+        #home:target .visible {
+            display: none;
+        }
+        #home:target .hide,
+        #home:target .home-items {
+            display: inline-block;
+        }
+        .title {
+            top: 30%;
+        }
+    }
+    
+    @media only screen and (min-width: 1000px) {
+        .title {
+            top: 25%;
+        }
+    }
+    
+    @media only screen and (max-width: 220px) {
+        .visible,
+        .hide {
+            font-size: 14px;
+        }
+    }
+    /*** FLEX BOX ***/
+    
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .item {
+        flex: 1 0 15em;
+        margin: 1em;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+    }
+    /** All visual fluff **/
+    
+    .gallery {
+        margin: 1em 0;
+        padding: 1em;
+    }
+    
+    .item {
+        min-width: 8em;
+        min-height: 8em;
+    }
