@@ -1,13 +1,19 @@
-    @import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
-    .arabic {
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+.arabic {
         font-family: 'Amiri', serif;
-    }
+    direction: rtl;
+}
     /* Body and Headings */
-    
+
+
+.english {
+
+    font-family: Verdana, Geneva, sans-serif;
+
+}
     body {
         margin: 0 auto;
-        font-family: Verdana, Geneva, sans-serif;
-        /*  direction: rtl; */
     }
     
     .outerbody p {
@@ -291,13 +297,13 @@
         color: #dde1e2;
     }
     
-   /* .visible {
+    .visible {
         background-image: url(assets/down-arrow-icon.png);
     }
     
     .hide {
         background-image: url(assets/up-arrow-icon.png);
-    }*/
+    }
     
     @media only screen and (max-width: 800px) {
         .home {
