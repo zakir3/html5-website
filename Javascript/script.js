@@ -4,3 +4,5 @@
           $(".text-off").switchClass("text-off", "text-on", 10);
       });
   });
+
+
