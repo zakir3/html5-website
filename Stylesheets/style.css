@@ -7,13 +7,10 @@
     /* Body and Headings */
 
 
-.english {
-
-    font-family: Verdana, Geneva, sans-serif;
-
-}
     body {
         margin: 0 auto;
+        font-family: Verdana, Geneva, sans-serif;
+
     }
     
     .outerbody p {
