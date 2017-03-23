@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url("http://fonts.googleapis.com/earlyaccess/amiri.css");
 
 .arabic {
     font-family: 'Amiri', serif;
@@ -12,7 +12,7 @@
 body {
     margin: 0 auto;
     font-family: Verdana, Geneva, sans-serif;
-    background-image: url("../images/bg.jpg");
+    background-image: url(../images/bg.jpg);
     background-color: #e7ddd5;
     background-size: 100%;
 
@@ -291,6 +291,7 @@ button {
     background-color: #504132;
 }
 
+
 .navmenu li,
 .navmenu a {
     height: 50px;
@@ -299,9 +300,9 @@ button {
 }
 
 .home {
+margin: 0 auto;
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
 }
 
 .home a,
