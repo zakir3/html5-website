@@ -107,6 +107,7 @@
 
     <section class="innerbody">
 
+    <h1>Book Syllabus</h1>
 
         <p class="english">
             "Our job is to place you on the tracks, it is up to you how far you travel "
@@ -298,11 +299,23 @@
     $('.btn-english').click(function () {
         $('.arabic').hide();
         $('.english').show();
+        $.cookie('btn-arabic', true);
+
+
     });
     $('.btn-arabic').click(function () {
         $('.english').hide();
         $('.arabic').show();
+
+        $.cookie('btn-arabic', false);
+
     });
+
+    if($.cookie('btn-arabic') == 'true'){
+        $('btn-arabic').click();
+    } else {
+        $('btn-english').click();
+    }
 
 
 </script>
