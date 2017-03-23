@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/earlyaccess/amiri.css");
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
 
 .arabic {
     font-family: 'Amiri', serif;
@@ -355,7 +355,6 @@ margin: 0 auto;
         display: none;
         width: 100%;
         left: 0;
-
         margin-top: 50px;
         background-color: #706558;
     }
