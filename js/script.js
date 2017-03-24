@@ -189,3 +189,49 @@ $(function () {
 
 });
 
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+//Accordion
+
+$(function () {
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px ";
+        }
+    }
+}});
+
+//Arabic to English Buttons
+
+
+$(function () {
+
+$('.btn-english').click(function () {
+    $('.arabic').hide();
+    $('.english').show();
+
+
+});
+$('.btn-arabic').click(function () {
+    $('.english').hide();
+    $('.arabic').show();
+});
+
+});
