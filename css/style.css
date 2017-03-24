@@ -286,16 +286,15 @@ div.panel {
 /***** ZAKIR NAV *****/
 
 /* NAV BAR
-
 .navmenu {
-  position: absolute;
-  top: 25%;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #504132;
+ position: absolute;
+ top: 25%;
+ left: 0;
+ right: 0;
+ z-index: 9999;
+ width: 100%;
+ height: 50px;
+ background-color: #504132;
 }*/
 
 
@@ -346,11 +345,10 @@ div.panel {
 }
 
 /*.visible {
-    background-image: url(assets/down-arrow-icon.png);
+ background-image: url(assets/down-arrow-icon.png);
 }
-
 .hide {
-    background-image: url(assets/up-arrow-icon.png);
+ background-image: url(assets/up-arrow-icon.png);
 }*/
 
 @media only screen and (max-width: 700px) {
@@ -404,7 +402,7 @@ div.panel {
 /*** MODAL ****/
 
 /* The Modal (background) */
-.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11, .modal12  {
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11, .modal12 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -495,9 +493,9 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-     padding: 5px;
-     text-align: left;
- }
+    padding: 5px;
+    text-align: left;
+}
 
 
 table tr:nth-child(even) {
