@@ -3,25 +3,35 @@
 ###### CTEC3905 Front End Web App Development - Assignment 2
 ###### Zakir Ahmed - P14125980 - Computer Science
 
-
-
 [TOC]
+
 ---
 
 # Introduction
+gf
 
 ## Motivation
+fdg
 
 
 # Design Documentation
 
 
 
-[Initial Sketches](documents/inital.md)
+[Initial Sketches](documents/initial.md)
 [Final Design](documents/final.md)
 
 # Design Standards (PARC)
+1. P
+2. A
+3. R
+4. C
 
+# Design Features
+- f
+
+# Obstacles
+- f
 
 # Testing
 
