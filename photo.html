@@ -9,116 +9,74 @@
     <title>Title</title>
 
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-        }
 
-        body{
-            background: #000;
-            color: #fff;
-            padding: 40px;
-            font-family: sans-serif;
-            max-width: 960px;
-            margin: 0 auto;
-        }
 
-        .gallery{
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        [class*='thumbnail-']{
-            background: #000;
-            width: 33.33%;
-            height: auto;
-            float: left;
-            padding: 5px 5px 3px 5px;
-            cursor: zoom-in;
-        }
-
-        [class*='thumbnail-'] img{
-            max-width: 100%;
-        }
-
-        [class*='large-']{
-            background: #000;
-            width: 90%;
-            margin: 0 auto;
-            padding: 30px;
-            display: none;
-        }
-
-        [class*='large-'] img{
-            width: 100%;
-            max-width: 100%;
-            margin: 0 auto;
-        }
-
-        .prev{
-            color: #fff;
-            font-size: 60px;
-            position: absolute;
-            top: 45%;
-            left: 10px;
-            float: left;
-        }
-
-        .next{
-            color: #fff;
-            font-size: 60px;
-            position: absolute;
-            top: 45%;
-            right: 10px;
-            float: right;
-        }
-
-        .close{
-            color: #fff;
-            font-size: 30px;
-            position: absolute;
-            top: 5px;
-            right: 10px;
-            float: right;
-            cursor: zoom-out;
-        }
-
-        [class*='thumbnail-']{
+        .wrap {
             overflow: hidden;
-            padding: 0;
+            margin: 10px;
+        }
+        .box {
+            float: left;
             position: relative;
-            cursor: zoom-in;
+            width: 20%;
+            padding-bottom: 20%;
         }
-
-        [class*='thumbnail-']:hover img{
-            transition: .3s linear;
-            transition-delay: 300ms;
-            transform: /* rotate(5deg) */ scale(1.4);
+        .boxInner {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: 10px;
+            bottom: 10px;
+            overflow: hidden;
         }
-
-        [class*='thumbnail-'] > .caption{
-            display: none;
+        .boxInner img {
+            height:100%;
+        }
+        .boxInner .titleBox {
             position: absolute;
             bottom: 0;
-            padding: 15px;
-            width: 100%;
-            background-color: black;
-            color: white;
-            opacity: 0.8;
+            left: 0;
+            right: 0;
+            margin-bottom: -50px;
+            background: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
         }
-
-        [class*='thumbnail-']:hover > .caption{
-            display: block;
-
+        section.no-touch .boxInner:hover .titleBox, section.touch .boxInner.touchFocus .titleBox {
+            margin-bottom: 0;
         }
-
-        @media screen and (max-width:480px){
-            .caption h3{
-                font-size: 12px;
+        @media only screen and (max-width : 480px) {
+            /* Smartphone view: 1 tile */
+            .box {
+                width: 100%;
+                padding-bottom: 100%;
+            }
+        }
+        @media only screen and (max-width : 650px) and (min-width : 481px) {
+            /* Tablet view: 2 tiles */
+            .box {
+                width: 50%;
+                padding-bottom: 50%;
+            }
+        }
+        @media only screen and (max-width : 1050px) and (min-width : 651px) {
+            /* Small desktop / ipad view: 3 tiles */
+            .box {
+                width: 33.3%;
+                padding-bottom: 33.3%;
+            }
+        }
+        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+            /* Medium desktop: 4 tiles */
+            .box {
+                width: 25%;
+                padding-bottom: 25%;
             }
         }
 
@@ -129,116 +87,74 @@
 </head>
 <body>
 
-<div class="gallery">
-    <div class="thumbnail-1 wow fadeInLeft">
-        <img src="images/lib1.jpg" alt="Library pic 1" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 1</h3>
-        </div>
-    </div>
-    <div class="large-1 wow bounceInLeft">
-        <img src="images/lib1.jpg" alt="Library pic 1" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-2 wow fadeInDown">
-        <img src="images/lib9.jpg" alt="Library pic 2" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 2</h3>
-        </div>
-    </div>
-    <div class="large-2 wow bounceInDown">
-        <img src="images/lib9.jpg" alt="Library pic 2" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-3 wow fadeInRight">
-        <img src="images/lib3.jpg" alt="Library pic 3" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 3</h3>
-        </div>
-    </div>
-    <div class="large-3 wow bounceInRight">
-        <img src="images/lib3.jpg" alt="Library pic 3" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-4 wow fadeInLeft">
-        <img src="images/lib2.jpg" alt="Library pic 4" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 4</h3>
-        </div>
-    </div>
-    <div class="large-4 wow bounceInLeft">
-        <img src="images/lib2.jpg" alt="Library pic 4" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-5 wow flipInX">
-        <img src="images/lib5.jpg" alt="Library pic 5" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 5</h3>
-        </div>
-    </div>
-    <div class="large-5 wow bounceIn">
-        <img src="images/lib5.jpg" alt="Library pic 5" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-6 wow fadeInRight">
-        <img src="images/lib6.jpg" alt="Library pic 6" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 6</h3>
-        </div>
-    </div>
-    <div class="large-6 wow bounceInRight">
-        <img src="images/lib6.jpg" alt="Library pic 6" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-7 wow fadeInLeft">
-        <img src="images/lib7.jpg" alt="Library pic 7" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 7</h3>
-        </div>
-    </div>
-    <div class="large-7 wow bounceInLeft">
-        <img src="images/lib7.jpg" alt="Library pic 7" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-8 wow fadeInUp">
-        <img src="images/lib8.jpg" alt="Library pic 8" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 8</h3>
-        </div>
-    </div>
-    <div class="large-8 wow bounceInUp">
-        <img src="images/lib8.jpg" alt="Library pic 8" />
-        <span class="close">&#x2715;</span>
-    </div>
-    <div class="thumbnail-9 wow fadeInRight">
-        <img src="images/lib4.jpg" alt="Library pic 9" />
-        <div class="caption">
-            <h3 class="wow fadeInUp">Library View 9</h3>
-        </div>
-    </div>
-    <div class="large-9 wow bounceInRight">
-        <img src="images/lib4.jpg" alt="Library pic 9" />
-        <span class="close">&#x2715;</span>
-    </div>
-</div>
+<section class="no-touch">
 
+    <div class="wrap">
+
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib1.jpg" />
+                <div class="titleBox">Library View 1</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib2.jpg" />
+                <div class="titleBox">Library View 2</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib3.jpg" />
+                <div class="titleBox">Library View 3</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib4.jpg" />
+                <div class="titleBox">Library View 4</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib5.jpg" />
+                <div class="titleBox">Library View 5</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib6.jpg" />
+                <div class="titleBox">Library View 6</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib7.jpg" />
+                <div class="titleBox">Library View 7</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib8.jpg" />
+                <div class="titleBox">Library View 8</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxInner">
+                <img src="images/lib9.jpg" />
+                <div class="titleBox">Library View 9</div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
 
 <script>
 
-    $(document).ready(function(){
-        $("[class^='thumbnail-']").click(function(){
-            $("[class^='thumbnail-']").slideToggle("fast");
-            $(this).next("[class^='large-']").slideToggle();
-        });
 
-        $(".close").click(function(){
-            $("[class^='large-']:visible").toggle();
-            $("[class^='thumbnail-']").fadeToggle("fast");;
-        });
-
-    });
-
-    new WOW().init();
 
 
 </script>
