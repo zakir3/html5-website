@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
 @import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Mr+De+Haviland|Raleway|Roboto');
 
+.arabic {
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    display: none;
+    text-align: right;
+}
 
 
 header {
@@ -121,12 +127,6 @@ body { margin:0px; padding:0px; }*/
 
 
 
-.arabic {
-    font-family: 'Amiri', serif;
-    direction: rtl;
-    display: none;
-    text-align: right;
-}
 
 /* Body and Headings */
 
