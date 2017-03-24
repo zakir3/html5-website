@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f66b74-e94f-401b-9053-064b6f96860e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,22 +32,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="878">
+              <caret line="851" column="7" lean-forward="false" selection-start-line="851" selection-start-column="7" selection-end-line="851" selection-end-column="7" />
               <folding>
-                <element signature="e#6896#6902#0" expanded="true" />
-                <element signature="e#7460#7467#0" expanded="true" />
-                <element signature="e#8789#8796#0" expanded="true" />
-                <element signature="e#10121#10128#0" expanded="true" />
-                <element signature="e#11487#11494#0" expanded="true" />
-                <element signature="e#12799#12806#0" expanded="true" />
-                <element signature="e#14127#14134#0" expanded="true" />
-                <element signature="e#15455#15462#0" expanded="true" />
-                <element signature="e#16783#16790#0" expanded="true" />
-                <element signature="e#18111#18118#0" expanded="true" />
-                <element signature="e#19443#19450#0" expanded="true" />
-                <element signature="e#20775#20782#0" expanded="true" />
-                <element signature="e#22107#22114#0" expanded="true" />
+                <element signature="e#7390#7396#0" expanded="true" />
+                <element signature="e#7954#7961#0" expanded="true" />
+                <element signature="e#9283#9290#0" expanded="true" />
+                <element signature="e#10615#10622#0" expanded="true" />
+                <element signature="e#11981#11988#0" expanded="true" />
+                <element signature="e#13293#13300#0" expanded="true" />
+                <element signature="e#14621#14628#0" expanded="true" />
+                <element signature="e#15949#15956#0" expanded="true" />
+                <element signature="e#17277#17284#0" expanded="true" />
+                <element signature="e#18605#18612#0" expanded="true" />
+                <element signature="e#19937#19944#0" expanded="true" />
+                <element signature="e#21269#21276#0" expanded="true" />
+                <element signature="e#22601#22608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -328,12 +329,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490204558231</updated>
       <workItem from="1490204559835" duration="1521000" />
-      <workItem from="1490206292936" duration="53549000" />
+      <workItem from="1490206292936" duration="54294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55070000" />
+    <option name="totallyTimeSpent" value="55815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,22 +619,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="878">
+          <caret line="851" column="7" lean-forward="false" selection-start-line="851" selection-start-column="7" selection-end-line="851" selection-end-column="7" />
           <folding>
-            <element signature="e#6896#6902#0" expanded="true" />
-            <element signature="e#7460#7467#0" expanded="true" />
-            <element signature="e#8789#8796#0" expanded="true" />
-            <element signature="e#10121#10128#0" expanded="true" />
-            <element signature="e#11487#11494#0" expanded="true" />
-            <element signature="e#12799#12806#0" expanded="true" />
-            <element signature="e#14127#14134#0" expanded="true" />
-            <element signature="e#15455#15462#0" expanded="true" />
-            <element signature="e#16783#16790#0" expanded="true" />
-            <element signature="e#18111#18118#0" expanded="true" />
-            <element signature="e#19443#19450#0" expanded="true" />
-            <element signature="e#20775#20782#0" expanded="true" />
-            <element signature="e#22107#22114#0" expanded="true" />
+            <element signature="e#7390#7396#0" expanded="true" />
+            <element signature="e#7954#7961#0" expanded="true" />
+            <element signature="e#9283#9290#0" expanded="true" />
+            <element signature="e#10615#10622#0" expanded="true" />
+            <element signature="e#11981#11988#0" expanded="true" />
+            <element signature="e#13293#13300#0" expanded="true" />
+            <element signature="e#14621#14628#0" expanded="true" />
+            <element signature="e#15949#15956#0" expanded="true" />
+            <element signature="e#17277#17284#0" expanded="true" />
+            <element signature="e#18605#18612#0" expanded="true" />
+            <element signature="e#19937#19944#0" expanded="true" />
+            <element signature="e#21269#21276#0" expanded="true" />
+            <element signature="e#22601#22608#0" expanded="true" />
           </folding>
         </state>
       </provider>
