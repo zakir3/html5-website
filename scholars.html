@@ -489,7 +489,7 @@
 
 
 
-            <br></br>
+            <br><br>
             <div id="map" style="width:100%;height:500px"></div>
             <h3 class="english">The Map Above Shows the Final
                 Resting Place of Imam
@@ -529,34 +529,7 @@
 
 </footer>
 
-
-
-<script>
-    function myMap() {
-        var mapCanvas = document.getElementById(
-            "map");
-        var myCenter = new google.maps
-            .LatLng(33.371862,
-            44.358471);
-        var mapOptions = {
-            center: myCenter,
-            zoom: 18
-        };
-        var map = new google.maps.Map(
-            mapCanvas,
-            mapOptions);
-        var marker = new google.maps
-            .Marker({
-            position: myCenter,
-            animation: google
-                .maps.Animation
-                .BOUNCE
-        });
-        marker.setMap(map);
-    }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPdjOC76PeME-hlyJrJTFGzaW9Tx111EU&callback=myMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPdjOC76PeME-hlyJrJTFGzaW9Tx111EU&callback=myMap"></script>
 
 </body>
 
