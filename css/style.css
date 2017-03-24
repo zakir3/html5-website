@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Mr+De+Haviland|Raleway|Roboto');
+
+
 
 header {
     height:360px;
@@ -37,9 +41,43 @@ nav {
     text-align: center;
     border: 3px solid white;
     padding: 0 100px;
-    font-size: 20px;
+    font-size: 40px;
 
 }
+
+@media screen and (max-width: 1186px) {
+    .title{
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 826px) {
+    .title{
+        font-size: 25px;
+        top: 250px;
+    }
+
+}
+
+@media screen and (max-width: 558px) {
+    .title {
+        font-size: 25px;
+        top: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1305px) {
+    .title .arabic{
+        font-size: 30px;
+        padding: 0 0;
+        top: 300px;
+    }
+
+}
+
+
 
 
 nav ul {
@@ -89,8 +127,6 @@ body { margin:0px; padding:0px; }*/
 
 /*ZAKIR*/
 
-@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
-@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Mr+De+Haviland|Raleway|Roboto');
 
 
 .arabic {
