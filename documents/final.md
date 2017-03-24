@@ -4,52 +4,33 @@
 ###### Zakir Ahmed - P14125980 - Computer Science
 
 
+[&larr; Back to Home](../README.md)
 
-[TOC]
----
+- - -
 
-# Introduction
+# Final Designs
 
-## Motivation
-
-
-# Design Documentation
+## Home (Books)
 
 
-
-[Initial Sketches](http://)
-[Final Design](http://)
-
-# Design Standards (PARC)
+Below is the wireframe design for my homepage. As drawn, there are accordion sections as well as a header and fixed nav bar.
+![Final Designs 1](home.png)
 
 
-# Testing
+* * *
+## Scholars
+This drawing is for the scholars section showing use of Google Maps API
+Below in the design there is a drawing of Google Maps which is to be implemented in the Scholars section.
 
+![Final Designs 2](scholars.png)
 
-| Test Case | Pass/Fail |Details |
-|--------|--------|--------|
-|     Arabic toggle switch in every page   |    Pass    | f    |
-|     Nav Bar collapses at a certain width   |    Pass    | f    |
-|     Nav bar menu items appear fully and function  |    Pass    | f    |
-|     Accordion sections open up   |    Pass    | f    |
-|     Modal box appears upon clicking the book image   |    Pass    | f    |
+* * *
+## Gallery
+The Gallery drawing below is the final design of how the responsive layout would be to the gallery section.
 
+![Final Designs 3](gallery.png)
 
-
-
-
-# JavaScript
-
-```
-Whole block of code
-
-```
-
----
-# References
-
-- [jQuery](http://) - Used mainly for the language toggler
-- [Font Awesom](http://) - Used for the social media icons in the footer
-- [Google Maps API](http://) - Used in the 'Scholars' section to highlight a location
-
-==Highlighted Text==
+* * *
+## Mobile
+The image below shows the fixed header and nav bar in the mobile version. The images have reduced to show only one in line as opposed to 2 or more. Also the menu items are hidden and only the new menu button shows.
+![Final Designs 4](mobile.png)

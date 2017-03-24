@@ -1,8 +1,8 @@
 # Islamic Studies Website
-- - -
+
 ###### CTEC3905 Front End Web App Development - Assignment 2
 ###### Zakir Ahmed - P14125980 - Computer Science
-
+- - -
 # Introduction
 This project is a HTML website focussed around a formal study of Islamic Science. This README file aims to explain the motivation behind the subject matter, depict plans and wireframes of the website and detail the process of development, highlighting any major design features or adherance to standards. There will also be a section on some user testing to ensure functionality of components.
 
@@ -18,8 +18,8 @@ This website aims to draw a little insight into the books which are studied and 
 The following links are to pages of the initial and final designs.
 
 
-[Initial Sketches](documents/initial.md)
-[Final Design](documents/final.md)
+- [Initial Sketches](documents/initial.md)
+- [Final Design](documents/final.md)
 
 # Design Principles (PARC)
 1. **P** - Proximity - Has been addressed in this website in that the relateed items are group closely together. The best example is seen on the Home Page where accordion sections are seperated though grouped closely together. This forms a visual cue to the user that each of the sections contain individual yet similarly formatted items. In this case, each section contained images of books.
