@@ -229,9 +229,14 @@ $('.btn-english').click(function () {
 
 
 });
+
 $('.btn-arabic').click(function () {
     $('.english').hide();
     $('.arabic').show();
 });
 
+
 });
+
+
+
