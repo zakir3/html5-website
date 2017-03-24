@@ -8,48 +8,17 @@
 
 - - -
 
-# Introduction
+# Initial Designs 1
 
-## Motivation
+These are the mobile first designs, showing the collapsed nav bar, section for books to scroll down and open modal bar.
 
-
-# Design Documentation
-
+![Initial Designs 1](initial1.jpeg)
 
 
-[Initial Sketches](http://)
-[Final Design](http://)
+* * *
+# Initial Designs 2
+The second design is for the desktop version, where the language toggle is introduced. Also the modal box is shown more larger here.
 
-# Design Standards (PARC)
+Below in the design there is a drawing of Google Maps which is to be implemented in the Scholars section.
 
-
-# Testing
-
-
-| Test Case | Pass/Fail |Details |
-|--------|--------|--------|
-|     Arabic toggle switch in every page   |    Pass    | f    |
-|     Nav Bar collapses at a certain width   |    Pass    | f    |
-|     Nav bar menu items appear fully and function  |    Pass    | f    |
-|     Accordion sections open up   |    Pass    | f    |
-|     Modal box appears upon clicking the book image   |    Pass    | f    |
-
-
-
-
-
-# JavaScript
-
-```
-Whole block of code
-
-```
-
----
-# References
-
-- [jQuery](http://) - Used mainly for the language toggler
-- [Font Awesom](http://) - Used for the social media icons in the footer
-- [Google Maps API](http://) - Used in the 'Scholars' section to highlight a location
-
-==Highlighted Text==
+![Initial Designs 2](initial2.jpeg)
