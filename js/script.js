@@ -1,7 +1,13 @@
+//Arabic to English Buttons
+
 $(function () {
-    $("#language-toggle").click(function () {
-        $(".text-on").switchClass("text-on", "text-off", 10);
-        $(".text-off").switchClass("text-off", "text-on", 10);
+    $('.btn-english').click(function () {
+        $('.arabic').hide();
+        $('.english').show();
+    });
+    $('.btn-arabic').click(function () {
+        $('.english').hide();
+        $('.arabic').show();
     });
 });
 
@@ -218,17 +224,4 @@ for (i = 0; i < acc.length; i++) {
     }
 }});
 
-//Arabic to English Buttons
-
-
-$(function () {
-$('.btn-english').click(function () {
-    $('.arabic').hide();
-    $('.english').show();
-});
-$('.btn-arabic').click(function () {
-    $('.english').hide();
-    $('.arabic').show();
-});
-});
 
