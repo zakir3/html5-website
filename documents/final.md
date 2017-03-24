@@ -17,8 +17,8 @@
 
 
 
-[Initial Sketches](documents/inital.md)
-[Final Design](documents/final.md)
+[Initial Sketches](http://)
+[Final Design](http://)
 
 # Design Standards (PARC)
 
