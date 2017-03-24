@@ -117,17 +117,6 @@ nav ul li a {
 }
 
 
-
-
-/* resets
-body { margin:0px; padding:0px; }*/
-
-
-/*ZAKIR*/
-
-
-
-
 /* Body and Headings */
 
 body {
@@ -210,7 +199,7 @@ button {
 }
 
 
-/*** FLEX BOX ***/
+/*** Books Images ***/
 
 .gallery1 {
     display: flex;
@@ -227,8 +216,6 @@ img {
     display: block;
     width: 100%;
 }
-
-/** All visual pleasing **/
 
 .gallery1 {
     margin: 1em 0;
@@ -280,24 +267,7 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
 
-
-
-
-/***** ZAKIR NAV *****/
-
-/* NAV BAR
-.navmenu {
- position: absolute;
- top: 25%;
- left: 0;
- right: 0;
- z-index: 9999;
- width: 100%;
- height: 50px;
- background-color: #504132;
-}*/
-
-
+/** NAV BAR **/
 .navmenu li,
 .navmenu a {
     height: 50px;
@@ -344,12 +314,6 @@ div.panel {
     color: #dde1e2;
 }
 
-/*.visible {
- background-image: url(assets/down-arrow-icon.png);
-}
-.hide {
- background-image: url(assets/up-arrow-icon.png);
-}*/
 
 @media only screen and (max-width: 700px) {
     .home {
@@ -399,7 +363,7 @@ div.panel {
     }}
 
 
-/*** MODAL ****/
+/*** MODAL SECTIONS FOR BOOKS ****/
 
 /* The Modal (background) */
 .modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11, .modal12 {
@@ -431,7 +395,7 @@ div.panel {
     animation-duration: 0.4s
 }
 
-/* Add Animation */
+/*  Animation */
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
@@ -442,7 +406,7 @@ div.panel {
     to {top:0; opacity:1}
 }
 
-/* The Close Button */
+/*  Close Button */
 .close, .close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12 {
     color: lightblue;
     float: right;
@@ -476,7 +440,7 @@ div.panel {
 }
 
 
-
+/** TABLE OF BOOKS INFO **/
 
 table {
     margin: 0 auto;
@@ -512,7 +476,6 @@ table th {
 
 
 /*** SOCIAL FOOTER ***/
-
 
 
 .social div {
@@ -573,7 +536,7 @@ table th {
     content:'\f1cb';
 }
 
-/*** TO TOP BUTTON ***/
+/*** GET TO TOP BUTTON ***/
 
 myBtn {
     display: inline-block;
